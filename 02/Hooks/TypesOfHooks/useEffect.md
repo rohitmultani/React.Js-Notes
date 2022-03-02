@@ -13,3 +13,13 @@ useEffect(<function>, <dependency>)
  ```
  useEffect(()=>{});
  ```
+
+ 2. An empty array
+ ```
+ useEffect(()=>{},[]);
+ ```
+ 
+ 3. Having some props or state value
+ ```
+ useEffect(()=>{},[props]);
+ ```
