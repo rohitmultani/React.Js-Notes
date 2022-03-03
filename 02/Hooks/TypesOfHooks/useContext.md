@@ -12,3 +12,18 @@ export default UserContext;
 ```
 
 Now we had created context, which we can use as Context Provider to wrap the tree structure where that state is needed
+
+## Context Provider
+```
+<UserContext.Provider>
+<DummyComponent value={changed object}/>
+</UserContext.Provider>
+```
+
+## Consuming or Using the Conntext
+
+cont anyVariable = useContext(UserContext);
+
+## Limitations
+ React Context is not optimized for high frequency changes.
+ to overcome this Redux is there.
