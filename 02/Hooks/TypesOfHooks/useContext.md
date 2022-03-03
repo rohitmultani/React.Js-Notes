@@ -7,7 +7,8 @@ To remove this useContext is introduced.
 To create context, you must Import createContext and initialize it:
 ```
 import { useState, createContext } from "react";
-const UserContext = createContext()
+const UserContext = createContext({default object});
+export default UserContext;
 ```
 
 Now we had created context, which we can use as Context Provider to wrap the tree structure where that state is needed
