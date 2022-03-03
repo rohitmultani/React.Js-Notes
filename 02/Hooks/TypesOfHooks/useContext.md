@@ -22,7 +22,7 @@ Now we had created context, which we can use as Context Provider to wrap the tre
 
 ## Consuming or Using the Conntext
 
-cont anyVariable = useContext(UserContext);
+const anyVariable = useContext(UserContext);
 
 ## Limitations
  React Context is not optimized for high frequency changes.
