@@ -14,4 +14,5 @@ There are a few good use cases for refs:
 3. Integrating with third-party DOM libraries.
 
 ## Why to use Refs
-It is mainly use to avoide re-rendering the component, storing the value in useState hooks cause re-renderes everytime, which is not a good way in react.
+- It is mainly use to avoide re-rendering the component, storing the value in useState hooks cause re-renderes everytime, which is not a good way in react.
+- React hanldes DOM manipulations but some instances may occur where we had to manipulate it.
