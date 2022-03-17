@@ -9,8 +9,11 @@ useReducer(<reducer>, <initialState>)
 
 1. reducer function contains our custom state logic.
 2. initial state can be any value but should be object.
-3.The useReducer Hook returns the current stateand a dispatchmethod.
+3. The useReducer Hook returns the current stateand a dispatchmethod.
 
+## Declaring 
 ```
 const [todos, dispatch] = useReducer(reducer, initialTodos);
 ```
+
+## InitialTools
