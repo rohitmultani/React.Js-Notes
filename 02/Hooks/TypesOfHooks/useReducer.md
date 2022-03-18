@@ -48,3 +48,9 @@ const reducer = (state, action) => {
   }
 };
 ```
+## Dispatch method
+```
+ const handleComplete = (todo) => {
+    dispatch({ type: "COMPLETE", id: todo.id });
+  };
+```
