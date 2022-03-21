@@ -9,3 +9,5 @@
 
  ## code syntax
  ```
+  const calculation = useMemo(() => expensiveCalculation(count), [count]);
+  ```
