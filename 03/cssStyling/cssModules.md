@@ -7,3 +7,10 @@ It different from stylesheets as we do not have to worry about name conflict her
     font-size:20px;
 }
 ```
+## importing in component
+```
+import styles from './app.module.css'; 
+const styleHandler=()=>{
+    <div className={styles.anime}>Anime</div>
+}
+```
