@@ -5,3 +5,8 @@ React Router is a standard library for routing in React. It enables the navigati
 ```
 npm i --save react-router-dom
 ```
+
+## Importing components
+```
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+```
