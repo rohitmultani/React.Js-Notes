@@ -10,3 +10,5 @@ npm i --save react-router-dom
 ```
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 ```
+
+## Adding components
