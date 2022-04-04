@@ -60,3 +60,6 @@ render() {
 
 export default App;
 ```
+
+## Associated props
+1. exact
