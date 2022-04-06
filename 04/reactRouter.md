@@ -66,3 +66,5 @@ export default App;
 It is used to match the exact value with the URL. For Eg., exact path=’/about’ will only render the component if it exactly matches the path but if we remove exact from the syntax, then UI will still be rendered even if the strucute is like /about/10. 
 
 2. path: Path specifies a pathname we assign to our component.
+
+3. element: It refers to the component which will render on matching the path.
