@@ -4,3 +4,4 @@ React Transition Group is an add-on component for managing component states and 
 React Transition group has mainly two APIs to create transitions.
 
 # Installation
+` npm install react-transition-group --save `
