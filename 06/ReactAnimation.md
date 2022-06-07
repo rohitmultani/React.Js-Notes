@@ -5,3 +5,9 @@ React Transition group has mainly two APIs to create transitions.
 
 # Installation
 ` npm install react-transition-group --save `
+
+React Transition Group API provides three main components. These are:
+
+Transition
+CSSTransition
+Transition Group
