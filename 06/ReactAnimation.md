@@ -8,6 +8,8 @@ React Transition group has mainly two APIs to create transitions.
 
 React Transition Group API provides three main components. These are:
 
-Transition
-CSSTransition
-Transition Group
+1. Transition
+2. CSSTransition
+3. Transition Group
+
+# Transition
