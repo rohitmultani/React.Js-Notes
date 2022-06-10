@@ -15,3 +15,9 @@ React Transition Group API provides three main components. These are:
 # Transition
 
 It has a simple component API to describe a transition from one component state to another over time. It is mainly used to animate the mounting and unmounting of a component. It can also be used for in-place transition states as well.
+We can access the Transition component into four states:
+
+1. entering
+2. entered
+3. exiting
+4. exited
