@@ -21,3 +21,5 @@ We can access the Transition component into four states:
 2. entered
 3. exiting
 4. exited
+
+# CSSTransition
