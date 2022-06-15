@@ -25,3 +25,6 @@ We can access the Transition component into four states:
 # CSSTransition
 
 The CSSTransition component uses CSS stylesheet classes to write the transition and create animations. It is inspired by the ng-animate library. It can also inherit all the props of the transition component. We can divide the "CSSTransition" into three states.
+1. Appear
+2. Enter
+3. Exit
