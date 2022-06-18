@@ -32,3 +32,5 @@ The CSSTransition component uses CSS stylesheet classes to write the transition 
 CSSTransition component must be applied in a pair of class names to the child components. The first class is in the form of name-stage and the second class is in the name-stage-active. For example, you provide the name fade, and when it applies to the 'enter' stage, the two classes will be fade-enter and fade-enter-active. It may also take a prop as Timeout which defines the maximum time to animate.
 
 # TransitionGroup
+
+This component is used to manage a set of transition components (Transition and CSSTransition) in a list.
