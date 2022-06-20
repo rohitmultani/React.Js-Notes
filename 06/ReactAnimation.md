@@ -34,4 +34,5 @@ CSSTransition component must be applied in a pair of class names to the child co
 # TransitionGroup
 
 This component is used to manage a set of transition components (Transition and CSSTransition) in a list.
-It is a state machine that controls the mounting and unmounting of components over time. 
+It is a state machine that controls the mounting and unmounting of components over time.
+The Transition component does not define any animation directly. Here, how 'list' item animates is based on the individual transition component. It means, the "TransitionGroup" component can have different animation within a component.
